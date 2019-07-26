@@ -20,8 +20,7 @@ class PallindromicStringProblem {
 
         while (l < r) {
             if (str.charAt(l) != str.charAt(r)) {
-                palin[l] = palin[r] = (char) Math.max(str.charAt(l),
-                        str.charAt(r));
+                palin[l] = palin[r] = (char) Math.max(str.charAt(l), str.charAt(r));
                 k--;
             }
             l++;
@@ -84,3 +83,4 @@ class PallindromicStringProblem {
         System.out.println(maximumPalinUsingKChanges(str, k));
     }
 }
+
