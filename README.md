@@ -12,7 +12,7 @@ function maximumPalinUsingKChanges(Argument string, Argument k){
     Step 3: If each character in string at position l does not matches with the character in string at position r then take the maximum of that character 'digit' and put it in palin array at position l and r. Also decrement k by 1 then.
     Step 4: Increment l by 1
     Step 5: Decrement r by 1
-    Step 6: If k is less than 0 then return -1 else navigate to Step 7 (if k is negative then we cannot make string pallindrome)
+    Step 6: If k is less than 0 then return -1
     Step 7: Initialize l to 0 and r to the (string's length - 1)
     Step 8: If l is less than or equal to r then repeat steps 9 to 13
     Step 9: If l equals r and k is > 0 then put '9' at position l in palin array
