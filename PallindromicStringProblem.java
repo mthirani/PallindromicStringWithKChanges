@@ -53,10 +53,8 @@ class PallindromicStringProblem {
             l++;
             r--;
         }
-        for(int i = 0; i < palin.length; i++) {
-            result = result + palin[i];
-        }
-        return result;
+
+        return new String(palin);
     }
 
     /*
@@ -83,4 +81,3 @@ class PallindromicStringProblem {
         System.out.println(maximumPalinUsingKChanges(str, k));
     }
 }
-
