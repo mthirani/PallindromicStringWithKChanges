@@ -2,7 +2,7 @@
 
 ## Pseudo Code for the implemented algorithm:
 
-Below is the main module which accepts the 'string' as the first argument, 'n' as String length and 'k' for maximum number of changes allowed and return the pallindromic string if formed within k changes else returns -1
+Below is the main module which accepts the 'string' as first argument for the input string, 'n' as second argument for the string length and 'k' as third argument for maximum number of changes allowed and return the pallindromic string if formed within k changes else returns -1
 
 ```
 function maximumPalinUsingKChanges(Argument string, Argument n, Argument k){ 
